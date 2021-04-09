@@ -1,0 +1,28 @@
+Console.WriteLine("ENTER THE FIRST NO");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("ENTER THE SECOND NO");
+            int y = Convert.ToInt32(Console.ReadLine()); 
+            int result = 0;
+            Console.WriteLine("ENTER THE OPERATION"); 
+            char op = Convert.ToChar(Console.ReadLine());
+            switch(op)
+            {
+                case '+':
+                    result = x + y;
+                    break;
+                case '-':
+                    result = x - y;
+                    break;
+                case '/':
+                    result = x / y;
+                    break;
+                case '*':
+                    result = x * y;
+                    break;
+                default:
+                    Console.WriteLine("operation is invalid");
+                    break;
+            }
+            Console.WriteLine("result is :" + result);
+            Console.ReadLine();
+                                                                       // calculator program hai switch me cases hote agr multiple operation krne to switch use krte.

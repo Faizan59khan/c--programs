@@ -1,0 +1,19 @@
+Goto statement: it is used to transfer control to specified part of the code. Also known as Jump Statement.
+
+basically esse use krk ham label banate or hamne koi condition de agr wo true hogye to hamne agr goto statement use k to wo again 
+
+uss control pr ajaye ga .
+
+             l1:
+            Console.WriteLine("Number is +ve");
+            Console.WriteLine("Enter no");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if(x>=0)
+            {
+                goto l1;
+            }
+            else
+            {
+                Console.WriteLine("no is -ve");
+            }
+            Console.ReadLine();

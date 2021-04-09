@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace pr_1
+{
+    class Program
+    {
+     public static void Main(string[] args)
+        {
+            Console.WriteLine("enter the marks");
+            int i = Convert.ToInt32(Console.ReadLine());
+            if (i > 75)
+            {
+                Console.WriteLine("A grade");
+
+
+            }
+            else if (i > 60 && i < 75)
+            {
+                Console.WriteLine("B grade");
+            }
+            else
+            {
+                Console.WriteLine("C grade");
+            }
+            Console.ReadLine();
+     
+        }
+    }
+}

@@ -1,0 +1,33 @@
+using 1 variable and find a^1, a^2, a^3 when a=1,a=2,a=3
+
+
+
+            int a = 1;
+            Console.WriteLine(" a is equal to " + a);
+
+            Console.WriteLine(" a^1 is " + a);
+            a = a * a;
+            Console.WriteLine(" a^2 is " + a);
+            a = a * a * a;
+            Console.WriteLine(" a^3 is " + a);
+
+            a = 2;
+            Console.WriteLine(" a is equal to " + a);
+
+            Console.WriteLine(" a^1 is " + a);
+            a = a * a;
+            Console.WriteLine(" a^2 is " + a);
+            a = 2;
+            
+            a = a * a * a;
+            Console.WriteLine(" a^3 is " + a);
+
+            a = 3;
+            Console.WriteLine(" a is equal to " + a);
+
+            Console.WriteLine(" a^1 is " + a);
+            a = a * a;
+            Console.WriteLine(" a^2 is " + a);
+            a = 3;
+            a = a * a * a;
+            Console.WriteLine(" a^3 is " + a);

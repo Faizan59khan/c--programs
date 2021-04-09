@@ -1,0 +1,47 @@
+functions : with and without parameter,with return statement.
+Functions: are the block of code that are used to execute statements with in the block.
+simple func : no parameter
+func : with parameter
+func : with return statement
+
+ek object banate then func call krte.
+class Program
+    {
+        public void f1()
+        {
+            Console.WriteLine("simple function");
+        }
+        static void Main(string[] args)
+        {
+            Program k1 = new Program();           // creating object of class
+            k1.f1();                             //calling the func f1 using object k1
+            Console.ReadLine();
+
+with parameter:
+     public void f1(double x,double y)
+        {
+            double result = x + y;
+            Console.WriteLine("result is"+ result);
+        }
+        static void Main(string[] args)
+        {
+            Program m1 = new Program();
+            m1.f1(13.5,12.3);
+            Console.ReadLine();
+}
+
+with return statement:
+class Program
+    {
+        public double f1(double x,double y)
+        {
+            double result = x + y;
+            return result;
+        }
+        static void Main(string[] args)
+        {
+            Program m1 = new Program();
+            double ans = m1.f1(13.5, 12.3);
+            Console.WriteLine("Ans is" + ans);
+            Console.ReadLine();
+        }

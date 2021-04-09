@@ -1,0 +1,17 @@
+namespace while_and_nested_while_loop
+{
+    class oddnolessthanequaltoB20
+    {
+        static void Main(string[] args)
+        {
+            int i = 1;
+        while (i <= 20)
+        {
+            Console.WriteLine(i);
+            i = i + 2;
+        
+        }
+        Console.ReadLine();
+        }
+    }
+}
